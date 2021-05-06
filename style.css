@@ -1,0 +1,17 @@
+form {
+    
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+      }
+
+/* Add padding to containers */
+.container 
+{
+    margin: 0 auto;
+    width:80%  
+}
+.van{
+  background-color: blue;
+}
