@@ -3,7 +3,7 @@ function display(validate)
   if(validate(true))
    {
        alert("Login Successful!!");
-       window.close();
+       window.close("index.html");
       window.open("welcome.html");
    }
     validate();
