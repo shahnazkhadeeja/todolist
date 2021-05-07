@@ -36,7 +36,7 @@ function counter()
      count=$(".checks:checked").length;
    console.log(count);
    const promise=new Promise((resolve,reject) => {
-    if(count>=95)
+    if(count>=5)
     setTimeout(() => {
       resolve("You have reached the maximum 5 values!!!");
    })
